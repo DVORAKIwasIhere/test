@@ -2,16 +2,28 @@
 <html>
     <head>
         <link rel="stylesheet" href="../main.css">
+        <link rel="stylesheet" href="../libs/bootstrap.css">
     </head>
     <body>
-        <h1>Filling page</h1>
-        <p>fill da shits</p>
-        
-        <div><input placeholder="login"></div>
-        
-        <div><input placeholder="password"></div>
-        <div><button>Log in</button></div>
-        <div><a href="../reg/reg.html">Нет аккаунта? Дуй на регистрацию!</a></div>
-        <div><a href="../index.html">ссылочка на глагну</a></div>
+
+        <form class="m-2">
+            <div class="mb-3">
+              <label for="exampleInputEmail1" class="form-label">Email address</label>
+              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+              <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+            </div>
+            <div class="mb-3">
+              <label for="exampleInputPassword1" class="form-label">Password</label>
+              <input type="password" class="form-control" id="exampleInputPassword1">
+            </div>
+            <div class="mb-3 form-check">
+              <input type="checkbox" class="form-check-input" id="exampleCheck1">
+              <label class="form-check-label" for="exampleCheck1">Check me out</label>
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+            <div><a href="../reg/reg.html">Нет аккаунта? Дуй на регистрацию!</a></div>
+            <div><a href="../index.html">ссылочка на глагну</a></div>
+          </form>
+
     </body>
 </html>
